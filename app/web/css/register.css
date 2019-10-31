@@ -1,0 +1,98 @@
+@charset "utf-8";
+/* CSS Document */
+.bg {
+	background:url(../images/rbg.png) no-repeat center top;
+	background-size:100% auto;
+	background-color:#129EEA;
+	font-size:15px;
+}
+.top {
+	padding:8% 5%;
+}
+.wbg {
+	width:86%;
+	margin:0px auto;
+	background-color:#fff;
+	border-radius:10px;
+	padding:2%;
+}
+.bbg {
+	border:1px solid #2E99F5;
+	border-radius:10px;
+}
+.bbg ul {
+	margin:5%;
+}
+.bbg ul li img {
+	float:left;
+	margin:11px 13px;
+}
+.bbg ul li input {
+	float:left;
+	border:none;
+	background-color:transparent;
+	line-height:42px;
+	outline: none;
+}
+.bbg ul li.lbg {
+	background-color:#F0FAFF;
+	border-radius:20px;
+}
+div.lbg {
+	background-color:#F0FAFF;
+	border-radius:20px;
+	overflow:hidden;
+	height:42px;
+	width:70%;
+}
+div.lbg input{
+	width:70%;
+}
+.bbg ul li {
+	overflow:hidden;
+	height:42px;
+	margin-bottom:11px;
+}
+.close {
+	float:right;
+	background:url(../images/close.png) no-repeat center center;
+	background-size: 13px 13px;
+	height:42px;
+	width:42px;
+	display:none;
+}
+.code {
+	height:42px;
+	color:#fff;
+	width:28%;
+	float:right;
+	border-radius:20px;
+	font-size:13px;
+	text-align:center;
+	line-height:42px;
+	background: -webkit-linear-gradient(top, #FF8675, #FA5C5D);
+    background: -o-linear-gradient(top, #FF8675, #FA5C5D);
+    background: -moz-linear-gradient(top, #FF8675, #FA5C5D);
+    background: linear-gradient(top, #FF8675, #FA5C5D);
+}
+.btn {
+	height:45px;
+	line-height:45px;
+	color:#fff;
+	border-radius:25px;
+	text-align:center;
+	background: -webkit-linear-gradient(top, #59A8FF, #1585F7);
+    background: -o-linear-gradient(top, #59A8FF, #1585F7);
+    background: -moz-linear-gradient(top, #59A8FF, #1585F7);
+    background: linear-gradient(top, #59A8FF, #1585F7);
+	margin:0px 5% 11px;
+}
+.account {
+	display:block;
+	color:#999;
+	margin-bottom:11px;
+}
+.account font {
+	color:#FC6360;
+}
+

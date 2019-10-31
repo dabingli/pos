@@ -1,0 +1,9 @@
+.dropdown-menu{
+  left: -16px;
+}
+th,td{
+  text-align: center;
+}
+.btn{
+	padding: 5px 12px;
+}

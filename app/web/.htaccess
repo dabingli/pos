@@ -1,0 +1,23 @@
+Options +FollowSymLinks
+IndexIgnore */*
+RewriteEngine on
+
+# if a directory or a file exists, use it directly
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+ # 直接在apache处理不存在资源访问，避免index.php压力
+<FilesMatch "\.(gif|jpe?g|png|s?html|css|js|cgi)$">
+  ErrorDocument 404 default
+</FilesMatch>
+
+RewriteCond %{REQUEST_FILENAME} !\.(gif|jpe?g|s?html|css|js|cgi)$
+
+
+# 升级提示
+# DirectoryIndex upgrade.php
+# RewriteRule . upgrade.php
+
+# otherwise forward it to index.php
+RewriteRule . index.php
+SetEnvIf Authorization "(.*)" HTTP_AUTHORIZATION=$1
